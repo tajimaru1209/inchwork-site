@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inchwork — help and privacy</title>
+<meta name="description" content="Inchwork prints your photos at the exact size you choose on your own printer.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --mat:#0F2A23; --raised:#163A31; --ivory:#F2F0E6; --dim:rgba(242,240,230,.66); --brass:#D2A866; --line:rgba(159,216,192,.12); }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--mat); color:var(--ivory); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+         background-image:linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size:32px 32px; background-attachment:fixed; }
+  main { max-width:680px; margin:0 auto; padding:56px 20px 80px; }
+  h1, h2 { font-family:"New York", ui-serif, Georgia, serif; font-weight:600; line-height:1.15; }
+  h1 { font-size:44px; margin:20px 0 10px; }
+  h2 { font-size:26px; margin:0 0 12px; }
+  .lede { color:var(--dim); font-size:19px; margin:0; }
+  .icon { width:88px; height:88px; border-radius:20px; box-shadow:0 10px 30px rgba(0,0,0,.45); }
+  .ruler { height:14px; margin:22px 0 4px; border-radius:3px; background:
+           repeating-linear-gradient(90deg, rgba(58,40,16,.8) 0 1px, transparent 1px 8px), linear-gradient(#F3DDA8, #D2A866 55%, #8F672C); }
+  section { background:var(--raised); border:1px solid var(--line); border-radius:18px; padding:24px; margin-top:22px; }
+  .eyebrow { text-transform:uppercase; letter-spacing:.16em; font-size:12px; font-weight:600; color:var(--brass); margin-bottom:6px; }
+  ol, ul { padding-left:22px; margin:0; } li { margin:6px 0; }
+  dt { font-weight:600; margin-top:14px; } dd { margin:4px 0 0; color:var(--dim); }
+  a { color:var(--brass); }
+  @media (max-width:480px) { h1 { font-size:36px; } main { padding-top:36px; } }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="icon.png" alt="">
+  <h1>Inchwork</h1>
+  <p class="lede">Print photos at the exact size you choose, on the printer you already have. Several to a page, so less paper goes to waste.</p>
+  <div class="ruler" aria-hidden="true"></div>
+
+  <section>
+    <div class="eyebrow">How it works</div>
+    <h2>From photo to print</h2>
+    <ol>
+      <li><strong>Start a sheet.</strong> Pick Letter, Legal, A4 or photo paper, or start from a layout such as wallet photos, gift tags or a sticker sheet.</li>
+      <li><strong>Add photos.</strong> From your library, from Files, or paste an image you copied.</li>
+      <li><strong>Choose a size.</strong> Tap a common size like 4 × 6 or 5 × 7, or type an exact size in inches or centimeters. Fill crops to the shape; Fit keeps the whole photo.</li>
+      <li><strong>Print.</strong> Inchwork checks sharpness and margins, then prints at 100% scale. You can also save an exact-size PDF.</li>
+    </ol>
+  </section>
+
+  <section>
+    <div class="eyebrow">Help</div>
+    <h2>Questions</h2>
+    <dl>
+      <dt>My print came out a little small or large.</dt>
+      <dd>Many printers shrink or stretch a page by a percent or two. Open Settings and choose Calibrate a Printer. Print the test page, measure lines A and B with a ruler, and enter what you measured. Inchwork corrects every later print to that printer.</dd>
+      <dt>Which scaling should I use in the print options?</dt>
+      <dd>Leave it at 100%, and choose the same paper size as your sheet.</dd>
+      <dt>What does the PPI number mean?</dt>
+      <dd>It is how many photo pixels land on each inch of paper. 240 or more looks sharp. Below 160 a photo may look soft, so try a smaller size.</dd>
+      <dt>Why is part of my photo outlined in red?</dt>
+      <dd>It runs past the dashed margin or overlaps another photo. Most home printers can't print right up to the paper edge. Move it, make it smaller, or tap Arrange.</dd>
+      <dt>Can I print borderless?</dt>
+      <dd>If your printer supports it, set Page Margin to None in Settings and choose borderless photo paper in the print options.</dd>
+      <dt>Contact</dt>
+      <dd>Email <a href="mailto:tajimaru1209@gmail.com">tajimaru1209@gmail.com</a>. We usually reply within a few days.</dd>
+    </dl>
+  </section>
+
+  <section id="privacy">
+    <div class="eyebrow">Privacy policy</div>
+    <h2>Your photos stay on your device</h2>
+    <ul>
+      <li>Inchwork does not collect, store or share any personal data.</li>
+      <li>Photos you add are copied into the app on your device only, and are removed when you delete the sheet or the app.</li>
+      <li>Inchwork only sees the photos you pick. It does not ask for access to your whole library.</li>
+      <li>There are no accounts, no adverts, no analytics and no tracking.</li>
+      <li>Photos go only to the printer you choose. The app does not otherwise connect to the internet, except to open this page.</li>
+    </ul>
+    <p style="color:var(--dim);margin-bottom:0">Last updated 1 November 2026. Questions about privacy: <a href="mailto:tajimaru1209@gmail.com">tajimaru1209@gmail.com</a>.</p>
+  </section>
+</main>
+</body>
+</html>
